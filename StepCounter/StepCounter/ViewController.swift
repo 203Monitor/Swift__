@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  StepCounter Demo
+//  StepCounter
 //
-//  Created by 武国斌 on 2017/9/26.
+//  Created by 武国斌 on 2017/9/29.
 //  Copyright © 2017年 武国斌. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import CoreMotion
 
 class ViewController: UIViewController {
-
+    
     let stepCounterOld : CMStepCounter = CMStepCounter()
     let stepCounterNew : CMPedometer = CMPedometer()
     
@@ -55,12 +55,12 @@ class ViewController: UIViewController {
         }
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
